@@ -20,13 +20,6 @@ Three forecasting approaches are implemented:
 
 The dataset consists of **monthly aggregated tourist arrivals in Indonesia** obtained from the **Central Bureau of Statistics (BPS)**.
 
-Key characteristics of the dataset:
-
-* Monthly time series data
-* Seasonal tourism patterns
-* Trend changes over time
-* External factors such as travel policy interventions
-
 ## Methodology
 
 The research follows several main stages:
@@ -55,7 +48,7 @@ The research follows several main stages:
 
 5. **Model Evaluation**
 
-Models are evaluated using the following metrics:
+Models are evaluated using:
 
 * RMSE (Root Mean Square Error)
 * MAE (Mean Absolute Error)
@@ -67,18 +60,9 @@ The experimental results show that **SARIMAX achieved the best forecasting perfo
 
 Key findings:
 
-* Incorporating **exogenous variables** improves forecasting accuracy.
-* Tourist arrival data shows strong **annual seasonality**.
-* Hybrid models provide competitive performance but did not outperform the SARIMAX model in this study.
-
-## Forecasting
-
-The best model is used to generate:
-
-* **Short-term forecasts (12 months ahead)**
-* **Long-term forecasts (24 months ahead)**
-
-The results show a gradual increase in tourist arrivals with recurring seasonal peaks during mid-year periods.
+* Incorporating **exogenous variables** improves forecasting accuracy
+* Tourist arrival data shows strong **annual seasonality**
+* Hybrid models provide competitive performance but do not outperform SARIMAX in this study
 
 ## Technologies Used
 
@@ -93,11 +77,16 @@ The results show a gradual increase in tourist arrivals with recurring seasonal 
 ## Repository Structure
 
 * `Source_Code_Tubes_ADW.ipynb` — time series modeling and forecasting implementation
-* `Data baru.xlsx` — tourism arrival dataset from BPS
+* `dataset` — tourism arrival dataset
+* `paper` — research report
 * `README.md` — project documentation
+
+## Research Team
+
+1. Aura Aulia Anastasya Hadi Putri
+2. Christa M. A. Tella Ware
+3. Helen Setyo Anggun
 
 ## Conclusion
 
-This study demonstrates that **SARIMAX is the most effective model** for forecasting aggregated monthly tourist arrivals in Indonesia. The inclusion of external variables improves the model’s ability to capture structural changes in tourism demand.
-
-These findings highlight the importance of integrating **exogenous factors in time series forecasting models** to support tourism planning and policy development.
+This study demonstrates that **SARIMAX provides the best forecasting accuracy** for aggregated monthly tourist arrivals in Indonesia. The inclusion of exogenous variables improves the model’s ability to capture structural changes in tourism demand and enhances forecasting performance.
