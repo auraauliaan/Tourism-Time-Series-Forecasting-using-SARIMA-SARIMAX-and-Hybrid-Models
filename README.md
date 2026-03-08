@@ -77,8 +77,8 @@ Key findings:
 ## Repository Structure
 
 * `Source_Code_Tubes_ADW.ipynb` — time series modeling and forecasting implementation
-* `dataset` — tourism arrival dataset
-* `paper` — research report
+* `Data baru.xlsx` — tourism arrival dataset
+* `PAPER ADW KELOMPOK 11.pdf` — research report
 * `README.md` — project documentation
 
 ## Research Team
